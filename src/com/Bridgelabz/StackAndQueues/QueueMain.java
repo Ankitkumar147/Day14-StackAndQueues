@@ -8,5 +8,11 @@ public class QueueMain {
         queue.enqueue(30);
         queue.enqueue(70);
         queue.displayQueue();
+        queue.dequeue();
+        queue.displayQueue();
+        queue.dequeue();
+        queue.displayQueue();
+        queue.dequeue();
+        queue.displayQueue();
     }
 }
